@@ -9,10 +9,10 @@ int main() {
 
     // Check if the number is positive, negative, or zero
     if (num > 0) {
-        printf("The number %.2f is positive.\n", num);
+        printf("Positive", num);
     }
     else if (num < 0) {
-        printf("The number %.2f is negative.\n", num);
+        printf("Negative", num);
     }
     else {
         printf("The number is zero.\n");
