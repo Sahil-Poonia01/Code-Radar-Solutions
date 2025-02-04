@@ -4,10 +4,10 @@ int main() {
     int num1, num2;
 
     // Ask user for input
-
+   
     scanf("%d", &num1);
 
-
+  
     scanf("%d", &num2);
 
     // Compare the two numbers and print the greater one
@@ -17,6 +17,8 @@ int main() {
         printf("%d ", num2, num1);
     } else {
         printf("%d ");
+    }
 
     return 0;
 }
+
