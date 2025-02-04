@@ -4,7 +4,6 @@ int main() {
     int number;
 
     // Ask user for input
-    printf("Enter an integer: ");
     scanf("%d", &number);
 
     // Check if the number is even or odd
