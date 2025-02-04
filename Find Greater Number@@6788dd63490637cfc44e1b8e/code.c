@@ -12,11 +12,11 @@ int main() {
 
     // Compare the two numbers and print the greater one
     if (num1 > num2) {
-        printf("%d ", num1, num2);
+        printf("%d", num1, num2);
     } else if (num2 > num1) {
-        printf("%d ", num2, num1);
-    } else {
-        printf("%d ");
+        printf("%d", num2, num1);
+    } else (num1==num2) {
+        printf("%d" ,num1);
     }
 
     return 0;
