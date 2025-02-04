@@ -15,7 +15,8 @@ int main() {
         printf("%d ", num1, num2);
     } else if (num2 > num1) {
         printf("%d ", num2, num1);
-    }
+    } else {
+        printf("Both numbers are equal.\n");
 
     return 0;
 }
