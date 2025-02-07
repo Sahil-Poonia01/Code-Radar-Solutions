@@ -5,7 +5,7 @@ int main() {
     const float PI = 3.14; // Defining the value of PI as 3.14
 
     // Prompt user for input
-
+  
     scanf("%f", &radius); // Taking the radius as input
 
     // Calculating the area of the circle
