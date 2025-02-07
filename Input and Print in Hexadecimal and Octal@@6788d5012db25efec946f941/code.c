@@ -9,8 +9,8 @@ int main() {
     scanf("%d", &num);
 
     // Printing the hexadecimal and octal representations
-    printf("The hexadecimal representation is: %X\n", num);  // %X for uppercase hexadecimal
-    printf("The octal representation is: %o\n", num);        // %o for octal
+    printf("Hexadecimal : %X\n", num);  // %X for uppercase hexadecimal
+    printf("Octal: %o\n", num);        // %o for octal
 
     return 0;
 }
