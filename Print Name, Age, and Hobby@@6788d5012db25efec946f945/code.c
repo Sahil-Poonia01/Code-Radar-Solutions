@@ -16,10 +16,10 @@ int main() {
     fgets(hobby, sizeof(hobby), stdin); // Taking the hobby input with spaces
 
     // Printing the input data
-    printf("\nUser Details:\n");
+   
     printf("Name: %s\n", name);
     printf("Age: %d\n", age);
-    printf("Favorite hobby: %s", hobby); // hobby already includes the newline from fgets
+    printf("Hobby: %s", hobby); // hobby already includes the newline from fgets
 
     return 0;
 }
