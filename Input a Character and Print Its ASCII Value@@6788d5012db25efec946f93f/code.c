@@ -9,7 +9,7 @@ int main() {
     scanf("%c", &ch);
 
     // Printing the ASCII value using printf
-    printf("ASCII value:", ch, ch);
+    printf("ASCII value: %d\n", ch, ch);
 
     return 0;
 }
