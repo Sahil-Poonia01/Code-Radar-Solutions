@@ -12,7 +12,7 @@ int main() {
     average = (num1 + num2 + num3) / 3.0;  // Use 3.0 to ensure floating-point division
 
     // Printing the average using printf
-    printf("The average is: %.2f\n", average); // Displaying with 2 decimal places
+    printf("Average: %.2f\n", average); // Displaying with 2 decimal places
 
     return 0;
 }
