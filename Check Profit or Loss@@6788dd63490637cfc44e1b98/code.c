@@ -15,10 +15,9 @@ int main() {
     float costPrice, sellingPrice;
     
     // Taking input for cost price and selling price
-    printf("Enter the cost price: ");
+ 
     scanf("%f", &costPrice);
-    
-    printf("Enter the selling price: ");
+
     scanf("%f", &sellingPrice);
     
     // Call function to check the result of the transaction
