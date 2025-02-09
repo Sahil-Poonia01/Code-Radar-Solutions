@@ -1,30 +1,15 @@
 #include <stdio.h>
 
-void printBinary(unsigned int num) {
-    // This function prints the binary representation of a number
-    for (int i = 31; i >= 0; i--) {
-        // Print the bit at position i
-        printf("%d", (num >> i) & 1);
-    }
-    printf("\n");
-}
-
-unsigned int flipBits(unsigned int num) {
-    return ~num;  // Bitwise NOT operation
-}
-
 int main() {
-    unsigned int num;
-
-    scanf("%u", &num);
+    int num;
     
-    // Flip the bits
-    unsigned int flipped = flipBits(num);
+    scanf("%d", &num);
+    
+    // Perform bitwise NOT to flip the bits
+    int flipped = ~num;
 
-    // Output the result in binary
-    printf("Flipped binary number: ");
-    printBinary(flipped);  // Print the flipped number in binary
+    // Output the flipped number in decimal
+    printf("Flipped number: %d\n", flipped);
 
     return 0;
 }
-
