@@ -22,7 +22,7 @@ int main() {
 
     scanf("%d", &num);
     
-    printf("Binary representation of %d is: ", num);
+    printf(" ", num);
     
     // Call the function to print the binary representation
     printBinary(num);
