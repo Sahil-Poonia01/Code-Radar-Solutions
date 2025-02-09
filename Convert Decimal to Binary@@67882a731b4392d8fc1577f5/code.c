@@ -33,7 +33,7 @@ int main() {
     scanf("%d", &num);
     
     // Call the function to print the binary representation
-    printf(" ", num);
+    printf("", num);
     printBinary(num);
     
     return 0;
