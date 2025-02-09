@@ -4,16 +4,16 @@
 void checkCharacterType(char c) {
     // Check if the character is a digit
     if (isdigit(c)) {
-        printf("The character is a digit.\n");
+        printf("Digit\n");
     }
     // Check if the character is an alphabet letter
     else if (isalpha(c)) {
         // Check if the character is a vowel
         if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' || 
             c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
-            printf("Vowel.\n");
+            printf("Vowel\n");
         } else {
-            printf("Consonant.\n");
+            printf("Consonant\n");
         }
     }
     // If the character is neither a digit nor an alphabet letter
