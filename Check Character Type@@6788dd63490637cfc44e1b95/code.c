@@ -32,3 +32,5 @@ int main() {
     // Call function to check the type of character
     checkCharacterType(c);
     
+    return 0;
+}
