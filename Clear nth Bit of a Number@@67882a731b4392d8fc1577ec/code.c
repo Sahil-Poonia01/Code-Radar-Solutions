@@ -14,7 +14,7 @@ int main() {
     num = num & mask;
 
     // Printing the new number after clearing the nth bit
-    printf("The number after clearing the %dth bit is: %d\n", n, num);
+    printf("%d\n", n, num);
 
     return 0;
 }
