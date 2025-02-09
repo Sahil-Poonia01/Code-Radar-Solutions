@@ -14,13 +14,14 @@ int main() {
 
     scanf("%d", &num2);
     
-    printf("%d\n", num1, num2);
+    // Output before swap
+    printf("Before swap: num1 = %d, num2 = %d\n", num1, num2);
     
     // Call the swap function
     swap(&num1, &num2);
     
     // Output the swapped values
-    printf("%d\n", num1, num2);
+    printf("After swap: num1 = %d, num2 = %d\n", num1, num2);
     
     return 0;
 }
