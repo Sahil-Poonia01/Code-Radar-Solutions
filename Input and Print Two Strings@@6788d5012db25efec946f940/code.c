@@ -4,7 +4,7 @@ int main() {
     char str1[100], str2[100];  // Arrays to store the two strings
 
     // Taking two space-separated strings as input
-    printf("Enter two strings: ");
+ 
     scanf("%s %s", str1, str2);
 
     // Printing the two strings
