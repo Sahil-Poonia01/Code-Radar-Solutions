@@ -11,9 +11,9 @@ int main() {
 
     // Checking if the two numbers are not equal using the != operator
     if (num1 != num2) {
-        printf("true\n");
+        printf("True\n");
     } else {
-        printf("false\n");
+        printf("False\n");
     }
 
     return 0;
