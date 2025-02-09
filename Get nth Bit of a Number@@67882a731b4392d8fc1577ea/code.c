@@ -11,7 +11,7 @@ int main() {
     bitValue = (num >> n) & 1;
 
     // Printing the value of the nth bit
-    printf("The value of the %dth bit of %d is: %d\n", n, num, bitValue);
+    printf("%d\n", n, num, bitValue);
 
     return 0;
 }
