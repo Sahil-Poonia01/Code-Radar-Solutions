@@ -16,7 +16,7 @@ int main() {
     if (position == -1) {
         printf("The number has no set bits (it's zero).\n");
     } else {
-        printf("The position of the lowest set bit is: %d\n", position);
+        printf("%d\n", position);
     }
 
     return 0;
