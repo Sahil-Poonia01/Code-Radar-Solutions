@@ -9,7 +9,7 @@ int main() {
     int flipped = ~num;
 
     // Output the flipped number in decimal
-    printf("Flipped number: %d\n", flipped);
+    printf("%d\n", flipped);
 
     return 0;
 }
