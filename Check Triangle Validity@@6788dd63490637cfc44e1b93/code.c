@@ -16,9 +16,9 @@ int main() {
     
     // Check if the sides form a valid triangle
     if (isValidTriangle(a, b, c)) {
-        printf("The sides form a valid triangle.\n");
+        printf("Valid");
     } else {
-        printf("The sides do not form a valid triangle.\n");
+        printf("Invalid");
     }
     
     return 0;
