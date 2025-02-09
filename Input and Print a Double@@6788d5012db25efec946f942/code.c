@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    double num; // Variable to store the double precision floating-point number
+    double num;  // Variable to store the double precision floating-point number
 
-    
-    // Taking input using scanf
+    // Taking double precision floating point input from the user
+  
     scanf("%lf", &num);
 
-    // Printing the number using printf
+    // Printing the double precision floating point number
     printf("You entered: %lf\n", num);
 
     return 0;
