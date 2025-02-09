@@ -3,15 +3,15 @@
 void assignGrade(int marks) {
     // Checking the grade based on the marks
     if (marks >= 90) {
-        printf("Grade: A\n");
+        printf("A\n");
     } else if (marks >= 80) {
-        printf("Grade: B\n");
+        printf("B\n");
     } else if (marks >= 70) {
-        printf("Grade: C\n");
+        printf("C\n");
     } else if (marks >= 60) {
-        printf("Grade: D\n");
+        printf("D\n");
     } else {
-        printf("Grade: F\n");
+        printf("F\n");
     }
 }
 
@@ -19,7 +19,7 @@ int main() {
     int marks;
     
     // Taking input for the marks
-    printf("Enter the marks: ");
+
     scanf("%d", &marks);
     
     // Call function to assign grade based on marks
