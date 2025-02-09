@@ -17,7 +17,7 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
     
     // Find and print the maximum of the three numbers
-    printf("The maximum of the three numbers is: %d\n", findMax(a, b, c));
+    printf("%d\n", findMax(a, b, c));
     
     return 0;
 }
