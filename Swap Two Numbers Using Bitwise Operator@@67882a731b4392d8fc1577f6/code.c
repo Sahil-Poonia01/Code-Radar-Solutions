@@ -9,19 +9,15 @@ void swap(int *a, int *b) {
 
 int main() {
     int num1, num2;
-
-    scanf("%d", &num1);
-
-    scanf("%d", &num2);
     
-    // Output before swap
-    printf("%d\n", num1, num2);
+    // Taking input for the two numbers
+    scanf("%d %d", &num1, &num2);
     
     // Call the swap function
     swap(&num1, &num2);
     
-    // Output the swapped values
-    printf("%d\n", num1, num2);
+    // Output the swapped values of num1 and num2
+    printf("%d %d\n", num1, num2);
     
     return 0;
 }
