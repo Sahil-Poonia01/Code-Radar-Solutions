@@ -11,22 +11,20 @@ void checkCharacterType(char c) {
         // Check if the character is a vowel
         if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' || 
             c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
-            printf("The character is a vowel.\n");
+            printf("Vowel.\n");
         } else {
-            printf("The character is a consonant.\n");
+            printf("Consonant.\n");
         }
     }
     // If the character is neither a digit nor an alphabet letter
     else {
-        printf("The character is a special character.\n");
+        printf("Digit.\n");
     }
 }
 
 int main() {
     char c;
-    
-    // Taking input for the character
-    printf("Enter a character: ");
+
     scanf("%c", &c);
     
     // Call function to check the type of character
