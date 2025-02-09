@@ -18,7 +18,7 @@ void checkCharacterType(char c) {
     }
     // If the character is neither a digit nor an alphabet letter
     else {
-        printf("Digit.\n");
+        printf("Speical Character\n");
     }
 }
 
