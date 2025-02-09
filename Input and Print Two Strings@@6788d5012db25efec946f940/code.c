@@ -1,17 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    char str1[100], str2[100]; // Arrays to store two strings
+    char str1[100], str2[100];  // Arrays to store the two strings
 
+    // Taking two space-separated strings as input
+    printf("Enter two strings: ");
+    scanf("%s %s", str1, str2);
 
-    scanf("%s", str1); // Reading the first string
-    
-    printf("Enter the second string: ");
-    scanf("%s", str2); // Reading the second string
-
-    // Printing the strings
-    printf("First string: %s\n", str1);
-    printf("Second string: %s\n", str2);
+    // Printing the two strings
+    printf("You entered: %s and %s\n", str1, str2);
 
     return 0;
 }
