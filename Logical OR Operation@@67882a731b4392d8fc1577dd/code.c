@@ -12,9 +12,9 @@ int main() {
 
     // Checking if at least one number is greater than zero using the || operator
     if (num1 > 0 || num2 > 0) {
-        printf("true\n");
+        printf("True\n");
     } else {
-        printf("false\n");
+        printf("False\n");
     }
 
     return 0;
