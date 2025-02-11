@@ -2,9 +2,9 @@
 
 void check_freezing_temperature(float temperature) {
     if (temperature <= 0) {
-        printf("The temperature is freezing or below freezing.\n");
+        printf("Freezing");
     } else {
-        printf("The temperature is above freezing.\n");
+        printf("Above Freezing");
     }
 }
 
