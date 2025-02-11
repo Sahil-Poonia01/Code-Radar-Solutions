@@ -14,13 +14,13 @@ int main() {
         case 8:  // August
         case 10: // October
         case 12: // December
-            printf("31 days\n");
+            printf("31");
             break;
         case 4:  // April
         case 6:  // June
         case 9:  // September
         case 11: // November
-            printf("30 days\n");
+            printf("30");
             break;
         case 2:  // February
             printf("28");
