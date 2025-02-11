@@ -3,8 +3,6 @@
 int main() {
     int month;
 
-    // Input the month number
-    printf("Enter the month number (1-12): ");
     scanf("%d", &month);
 
     // Determine the number of days in the month
@@ -25,7 +23,7 @@ int main() {
             printf("30 days\n");
             break;
         case 2:  // February
-            printf("28 days (assuming not a leap year)\n");
+            printf("28");
             break;
         default:
             printf("Error: Invalid month number\n");
