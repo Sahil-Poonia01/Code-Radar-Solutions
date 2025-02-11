@@ -18,10 +18,10 @@ int main() {
         if (num2 != 0) {
             printf("%d\n", num1 / num2);
         } else {
-            printf("Error\n");  // Division by zero error
+            printf("error\n");  // Division by zero error
         }
     } else {
-        printf("Error\n");  // Invalid operator
+        printf("error\n");  // Invalid operator
     }
 
     return 0;
