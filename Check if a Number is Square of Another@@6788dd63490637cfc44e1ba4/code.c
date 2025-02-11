@@ -2,9 +2,9 @@
 
 void check_square(int num1, int num2) {
     if (num1 == num2 * num2) {
-        printf("%d is the square of %d.\n", num1, num2);
+        printf("Yes", num1, num2);
     } else {
-        printf("%d is not the square of %d.\n", num1, num2);
+        printf("No", num1, num2);
     }
 }
 
