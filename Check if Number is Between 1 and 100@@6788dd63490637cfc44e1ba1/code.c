@@ -2,9 +2,9 @@
 
 void check_range(int num) {
     if (num >= 1 && num <= 100) {
-        printf("%d is between 1 and 100.\n", num);
+        printf("In Range", num);
     } else {
-        printf("%d is not between 1 and 100.\n", num);
+        printf("Out Range", num);
     }
 }
 
