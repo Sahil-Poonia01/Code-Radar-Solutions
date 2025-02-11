@@ -10,15 +10,15 @@ void check_triangle_type(int a, int b, int c) {
     if (a + b > c && a + c > b && b + c > a) {
         // Check for Equilateral triangle
         if (a == b && b == c) {
-            printf("Equilateral Triangle\n");
+            printf("Equilateral");
         }
         // Check for Isosceles triangle
         else if (a == b || b == c || a == c) {
-            printf("Isosceles Triangle\n");
+            printf("Isosceles");
         }
         // Check for Scalene triangle
         else {
-            printf("Scalene Triangle\n");
+            printf("Scalene");
         }
     } else {
         printf("The sides do not form a valid triangle.\n");
@@ -28,7 +28,7 @@ void check_triangle_type(int a, int b, int c) {
 int main() {
     int a, b, c;
     
-    printf("Enter the three sides of the triangle: ");
+
     scanf("%d %d %d", &a, &b, &c);
 
     check_triangle_type(a, b, c);
