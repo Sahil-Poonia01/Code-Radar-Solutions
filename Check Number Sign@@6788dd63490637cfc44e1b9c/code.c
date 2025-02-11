@@ -6,7 +6,7 @@ void check_number_sign(int num) {
     } else if (num < 0) {
         printf("Negative", num);
     } else {
-        printf("%d is zero.\n", num);
+        printf("Zero", num);
     }
 }
 
