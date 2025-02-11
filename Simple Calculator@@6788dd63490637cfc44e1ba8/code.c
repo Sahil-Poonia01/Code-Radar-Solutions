@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+// Function to perform the operation based on the operator
 void simple_calculator(float num1, float num2, char operator) {
     float result;
 
-    // Perform the operation based on the operator
+    // Check for the operator and perform the corresponding operation
     switch (operator) {
         case '+':
             result = num1 + num2;
@@ -22,10 +23,12 @@ void simple_calculator(float num1, float num2, char operator) {
                 result = num1 / num2;
                 printf("Result: %.2f\n", result);
             } else {
+                // Error message for division by zero
                 printf("Error: Division by zero is not allowed.\n");
             }
             break;
         default:
+            // Error message for invalid operator
             printf("Error: Invalid operator. Please use +, -, *, or /.\n");
     }
 }
