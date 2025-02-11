@@ -24,7 +24,7 @@ void display_day_of_week(int day) {
             printf("Sunday\n");
             break;
         default:
-            printf("Invalid input. Please enter a number between 1 and 7.\n");
+            printf("Invalid");
     }
 }
 
@@ -32,7 +32,7 @@ int main() {
     int day;
 
     // Input from the user
-    printf("Enter a number (1-7) to get the day of the week: ");
+   
     scanf("%d", &day);
 
     // Display the corresponding day or Invalid
