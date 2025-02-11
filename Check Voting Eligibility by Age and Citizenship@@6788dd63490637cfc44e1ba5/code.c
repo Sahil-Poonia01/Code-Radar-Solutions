@@ -2,9 +2,9 @@
 
 void check_voting_eligibility(int age, int citizenship) {
     if (age >= 18 && citizenship == 1) {
-        printf("You are eligible to vote.\n");
+        printf("Eligible");
     } else {
-        printf("You are not eligible to vote.\n");
+        printf("Not Eligible");
     }
 }
 
@@ -14,7 +14,7 @@ int main() {
     // Get input from user
     
     scanf("%d", &age);
-    printf("Enter your citizenship status (1 for citizen, 0 for non-citizen): ");
+ 
     scanf("%d", &citizenship);
 
     // Check eligibility
