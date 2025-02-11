@@ -4,7 +4,7 @@ void check_range(int num) {
     if (num >= 1 && num <= 100) {
         printf("In Range", num);
     } else {
-        printf("Out Range", num);
+        printf("Out of Range", num);
     }
 }
 
