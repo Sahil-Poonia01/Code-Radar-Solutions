@@ -6,9 +6,8 @@ int main() {
     // Ask user for input
     scanf("%d", &number);
 
-    // Check if the number is even or odd
     if (number % 2 == 0) {
-        printf("Even", number);
+        printf("Even");
     } else {
         printf("Odd", number);
     }
