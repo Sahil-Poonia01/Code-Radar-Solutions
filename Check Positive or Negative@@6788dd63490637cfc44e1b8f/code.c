@@ -3,13 +3,10 @@
 int main() {
     float num;
 
-    // Ask the user for input
-  
     scanf("%f", &num);
 
-    // Check if the number is positive, negative, or zero
     if (num > 0) {
-        printf("Positive", num);
+        printf("Positive");
     }
     else if (num < 0) {
         printf("Negative", num);
